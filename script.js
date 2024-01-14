@@ -14,7 +14,6 @@ function AddTask() {
   }
   inputBox.value = "";
   saveData();
-  sessionStorage;
 }
 
 listContainer.addEventListener(
