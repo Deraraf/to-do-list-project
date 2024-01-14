@@ -23,12 +23,10 @@ listContainer.addEventListener(
     if (e.target.nodeName === "LI") {
       e.target.classList.toggle("checked");
       saveData();
-      sessionStorage;
     }
     if (e.target.nodeName === "SPAN") {
       e.target.parentElement.remove();
       saveData();
-      sessionStorage;
     }
   },
   false
